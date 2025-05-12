@@ -100,13 +100,46 @@
 - ✅ Role-based API access control  
 - ✅ Email notifications for assignments  
 - ✅ API documentation via Swagger UI  
-
----
-
+ ---
+ 
 ## ⚙ Setup Instructions
 
 ### 1️⃣ Clone the repository
-
 ```bash
 git clone https://github.com/your-username/taskflow.git
 cd taskflow
+```
+
+### 2️⃣ Configure the database
+Update `application.properties` with your MySQL database details.
+
+### 3️⃣ Run the application
+```bash
+./mvnw spring-boot:run
+```
+
+### 4️⃣ Access Swagger UI
+Navigate to: 
+```
+http://localhost:8080/swagger-ui.html
+```
+
+### 5️⃣ Test APIs in Postman
+Import the Swagger/OpenAPI JSON or use the documented endpoints.
+
+---
+
+## 🛡 Security Notes
+
+- All sensitive endpoints are fully protected.
+- Only authenticated users with appropriate roles can access task or project data.
+- JWT tokens are required in the Authorization header for protected requests.
+
+---
+
+## ✨ Future Improvements (optional)
+- Add user dashboards
+- Implement project/task deadlines and reminders
+- Add admin-level reporting or analytics
+- Improve email templates and notifications
+
