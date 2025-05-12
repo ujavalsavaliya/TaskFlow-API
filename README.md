@@ -5,6 +5,14 @@
 📄 **API Documentation**: [SwaggerHub – TaskFlow API](https://app.swaggerhub.com/apis/ujaval/TaskFlow-APi/1.0.0#/)
 
 ---
+## 🚀 Live API
+
+You can try out the live version of this API here:
+
+👉 https://taskflow-api-production-0b89.up.railway.app/
+
+> ⚠️ **Note:** The live API is hosted on a free-tier cloud service and may be temporarily unavailable due to inactivity, cold starts, or hosting limits. If the URL does not work, please try again later or run the project locally by following the instructions below.
+---
 
 ## 📌 Project Feature Highlights
 
@@ -106,7 +114,7 @@
 
 ### 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/your-username/taskflow.git
+git clone https://github.com/ujavalsavaliya/taskflow.git
 cd taskflow
 ```
 
