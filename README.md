@@ -57,18 +57,18 @@
 
 ## 🚀 Tech Stack
 
-- Java 17  
-- Spring Boot  
-- Spring Data JPA  
-- MySQL  
-- Spring Security (JWT)  
-- Lombok  
-- Railway Cloud  
-- Stream API / Lambda  
-- Maven  
-- Hibernate  
-- Swagger / OpenAPI  
-- Postman / JUnit  
+- **Java 17**  
+- **Spring Boot**  
+- **Spring Data JPA**  
+- **MySQL**  
+- **Spring Security (JWT)**  
+- **Lombok**  
+- **Railway Cloud**  
+- **Stream API / Lambda**  
+- **Maven**  
+- **Hibernate**  
+- **Swagger / OpenAPI**  
+- **Postman / JUnit**  
 
 ---
 
@@ -79,7 +79,7 @@
 - All other endpoints are protected and require valid authentication tokens.
 - Role-based access:
   - **Manager**: Can add and retrieve projects.
-  - **Users**: Can retrieve assigned tasks only.
+  - **Other Users**: Can retrieve assigned tasks only.
 
 ---
 
@@ -118,7 +118,7 @@ Update `application.properties` with your MySQL database details.
 ./mvnw spring-boot:run
 ```
 
-### 5️⃣ Test APIs in Postman
+### 4️⃣ Test APIs in Postman
 Import the Swagger/OpenAPI JSON or use the documented endpoints.
 
 ---
