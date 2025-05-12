@@ -118,12 +118,6 @@ Update `application.properties` with your MySQL database details.
 ./mvnw spring-boot:run
 ```
 
-### 4️⃣ Access Swagger UI
-Navigate to: 
-```
-http://localhost:8080/swagger-ui.html
-```
-
 ### 5️⃣ Test APIs in Postman
 Import the Swagger/OpenAPI JSON or use the documented endpoints.
 
