@@ -24,7 +24,10 @@ public class SpringSecurityMain {
                 .csrf(AbstractHttpConfigurer::disable)
                 .authorizeHttpRequests(auth -> auth
                         .requestMatchers("/project/**").hasAuthority("MANAGER")
-                        .requestMatchers("/task").authenticated()
+                        .requestMatchers("/task/create/**").hasAuthority("MANAGER")
+                        .requestMatchers("/task/update/**").hasAuthority("MANAGER")
+                        .requestMatchers("/task/delete/**").hasAuthority("MANAGER")
+                        .requestMatchers(("/task/**")).authenticated()
                         .anyRequest().permitAll())
                 .sessionManagement(session -> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
                 .addFilterBefore(jwtAuthFilter,
