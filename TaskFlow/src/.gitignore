@@ -1,5 +1,5 @@
 # Ignore Maven build directory
-target/
+TaskFlow\target
 # Ignore logs
 *.log
 
