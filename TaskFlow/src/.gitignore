@@ -1,0 +1,20 @@
+# Ignore Maven build directory
+target/
+# Ignore logs
+*.log
+
+# Ignore class files
+*.class
+
+# Ignore IntelliJ IDEA / Eclipse files
+*.iml
+.idea/
+*.ipr
+*.iws
+*.classpath
+*.project
+.settings/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
